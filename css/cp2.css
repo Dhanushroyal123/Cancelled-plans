@@ -1,0 +1,106 @@
+
+nav.navbar{
+	min-height: 80px;
+	background-color: rgba(0,0,0,85%);
+	border-bottom: 3px solid gray;
+}
+input#ip1{
+	padding: 15px;
+	border-radius: 3px;
+	min-width: 250px;
+	outline: none;
+	height: 32px;
+}
+.slide {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item:hover .slide {
+  opacity: 0.7;
+}
+
+.item:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  margin-top: 80px;
+  padding:25px;
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+  font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 1700px){
+	ul{
+		margin-left: 10px;
+	}
+	li{
+		margin-left:40px;
+	}
+	form.form-inline{
+		margin-right: 10px;
+	}
+	#sw{
+		margin-right: 140px;
+	}
+  #cartbag{
+    margin-left: 20px;
+  }
+  #curr{
+    margin-left: 50px;
+    margin-top: 3px;
+  }
+
+    
+}
+@media only screen and (max-device-width: 480px) {
+
+  ul{
+  	margin-left: 40px;
+  }
+  li{
+		margin-left:0px;
+	}
+ 
+  input#ip1{
+  	width: 480px;
+  	border-radius: 1px;
+  }
+    .owl-carousel .owl-stage-outer {
+       padding-left: 20px;
+       padding-right: 20px;
+      }
+  #main{
+  	margin-top: 70px;
+  }
+  .row{
+  	flex-direction: reverse;
+  }
+  .container #c1{
+    padding-left: 30px;
+  }
+  .container #c2{
+    padding-right: 10px;
+  }
+  	
+}
+
